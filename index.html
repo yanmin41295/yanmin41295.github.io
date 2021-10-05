@@ -1,10 +1,35 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <title>min's blog</title>
-  </head>
-  <body>
-  <h1>hello world!</h1>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>min blog index</title>
+    <!-- Import style -->
+    <link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.css"/>
+    <!-- Import Vue 3 -->
+    <script src="//unpkg.com/vue@next"></script>
+    <!-- Import component library -->
+    <script src="//unpkg.com/element-plus"></script>
+</head>
+<body>
+<div id="app">
+    <el-button @click="confirm">confirm</el-button>
+</div>
+
+</body>
+<script type="text/javascript">
+    const app = Vue.createApp({
+        data() {
+            return {count: 4}
+        },
+        methods: {
+            confirm() {
+                // `this` 指向该组件实例
+                alert("hello")
+            }
+        }
+    })
+
+    const vm = app.mount('#app')
+</script>
+
 </html>
