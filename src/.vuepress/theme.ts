@@ -17,7 +17,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/yanmin41295",
+  repo: "https://github.com/yanmin41295/docs.git",
 
   docsDir: "docs",
 
@@ -116,10 +116,10 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
-    comment: {
-      // @ts-expect-error: You should generate and use your own comment service
-      provider: "Giscus",
-    },
+    // comment: {
+    //   // @ts-expect-error: You should generate and use your own comment service
+    //   provider: "Giscus",
+    // },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
