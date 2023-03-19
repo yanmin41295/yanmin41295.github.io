@@ -1,1 +1,15 @@
 // place your custom styles here
+
+#main-content {
+  padding-left: 300px;
+
+  > * {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+:root {
+  --content-width: 1200px;
+  --sidebar-width: 18rem;
+}

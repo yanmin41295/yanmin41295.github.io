@@ -90,7 +90,6 @@ export default hopeTheme({
             "/demo/encrypt.html": ["1234"],
         },
     },
-
     plugins: {
         blog: true,
 
