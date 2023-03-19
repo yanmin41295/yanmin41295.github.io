@@ -1,15 +1,24 @@
 // place your custom styles here
 
-#main-content {
-  padding-left: 300px;
+:root {
+  --content-width: 1200px;
+  --sidebar-width: 18rem;
+}
+// 首页分类标签图标
+.icon-wrapper {
+  box-sizing: unset;
+}
+//主页博客列表宽度
+#main-content.blog-home {
+  max-width: 1080px;
+}
 
+//博客内容宽度
+#main-content.page {
   > * {
     padding-left: 5px;
     padding-right: 5px;
   }
 }
 
-:root {
-  --content-width: 1200px;
-  --sidebar-width: 18rem;
-}
+
