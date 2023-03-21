@@ -15,14 +15,11 @@ export default hopeTheme({
 
     iconAssets: "iconfont",
 
-    logo: "/logo.svg",
+    logo: "/dog.jpeg",
 
     repo: "https://github.com/yanmin41295/yanmin41295.github.io",
 
     docsDir: "src",
-    "plugins": {
-        blog: true
-    },
     blog: {
         // medias: {
         //   Baidu: "https://example.com",

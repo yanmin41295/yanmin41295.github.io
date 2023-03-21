@@ -3,8 +3,8 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-# heroImage: /logo.svg
-heroText: 鄢敏的笔记本
+# heroImage: /dog.svg
+heroText: 小敏敏的笔记本
 # heroFullScreen: true
 tagline: coding makes me happy
 # projects:
