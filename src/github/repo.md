@@ -19,10 +19,11 @@
 - springcloud教程 https://github.com/forezp/SpringCloudLearning
 - java设计模式 https://github.com/iluwatar/java-design-patterns
 -
--
--
--
--
--
--
 
+elementui 动态表格 https://blog.csdn.net/weixin_48201324/article/details/125192153
+
+
+管理键值对表格：每个表格有多个列属性，可以和其他表格列属性管理，显示vo
+
+
+# css 选择器 https://blog.csdn.net/weixin_48649246/article/details/127939139

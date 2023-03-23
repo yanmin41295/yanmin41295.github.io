@@ -1,17 +1,24 @@
 // place your custom styles here
 
 :root {
-  --content-width: 1200px;
+  --content-width: 1400px;
   --sidebar-width: 18rem;
 }
+
 // 首页分类标签图标 ant design 会有样式问题
 /*.icon-wrapper {
   box-sizing: unset;
 }*/
 //主页博客列表宽度
 #main-content.blog-home {
-  max-width: 1080px;
+  max-width: 1200px;
 }
+
+
+table {
+  margin: 0rem 0;
+}
+
 
 //博客内容宽度
 #main-content.page {
