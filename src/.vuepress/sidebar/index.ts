@@ -10,6 +10,18 @@ export const zhSidebar = themeSideBar({
             prefix: "labuladong/",
             children: "structure",
         },
+        {
+            text: "github",
+            icon: "note",
+            prefix: "github/",
+            children: "structure",
+        },
+        {
+            text: "idea",
+            icon: "note",
+            prefix: "idea/",
+            children: "structure",
+        },
         /* {
              text: "文章",
              icon: "note",

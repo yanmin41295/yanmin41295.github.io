@@ -7,36 +7,36 @@ title: 博客主页
 heroText: 小敏敏的笔记本
 # heroFullScreen: true
 tagline: coding makes me happy
-# projects:
-#   - icon: project
-#     name: 项目名称
-#     desc: 项目详细描述
-#     link: https://你的项目链接
+projects:
+  - icon: project
+    name: vue router文档
+    desc:
+    link: https://router.vuejs.org/zh/guide/
 
-#   - icon: link
-#     name: 链接名称
-#     desc: 链接详细描述
-#     link: https://链接地址
+  - icon: link
+    name: vue文档
+    desc:
+    link: https://cn.vuejs.org/guide/introduction.html
 
-#   - icon: book
-#     name: 书籍名称
-#     desc: 书籍详细描述
-#     link: https://你的书籍链接
+  - icon: book
+    name: element plus 文档
+    desc: 
+    link: https://element-plus.gitee.io/zh-CN/component/button.html
 
-#   - icon: article
-#     name: 文章名称
-#     desc: 文章详细描述
-#     link: https://你的文章链接
+  - icon: article
+    name: ant design vue 文档
+    desc: 
+    link: https://www.antdv.com/components/overview-cn/
 
-#   - icon: friend
-#     name: 伙伴名称
-#     desc: 伙伴详细介绍
-#     link: https://你的伙伴链接
+  - icon: friend
+    name: github主页
+    desc: 
+    link: https://github.com/yanmin41295
 
-#   - icon: /logo.svg
-#     name: 自定义项目
-#     desc: 自定义详细介绍
-#     link: https://你的自定义链接
+  - icon: /logo.svg
+    name: github 博客
+    desc: 
+    link: https://yanmin41295.github.io/
 
 footer: min's notebook
 ---
