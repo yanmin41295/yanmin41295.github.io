@@ -1,0 +1,1 @@
+import{_}from"./plugin-vue_export-helper-c27b6911.js";import{r as o,o as a,c as l,e,w as r}from"./app-8ba411b2.js";const s={};function i(m,p){const n=o("HopeIcon"),t=o("AutoCatalog");return a(),l("div",null,[e(t,null,{icon:r(({icon:c})=>[e(n,{icon:c},null,8,["icon"])]),_:1})])}const d=_(s,[["render",i],["__file","index.html.vue"]]);export{d as default};

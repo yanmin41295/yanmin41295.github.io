@@ -1,0 +1,1 @@
+import n from"./ConfigTable-d519344d.js";import{g as r,e,F as o}from"./app-8ba411b2.js";const l=r({setup(){const t={name:{title:"姓名",query:"like"},age:{title:"年龄",query:"="},gender:{title:"性别",query:"=",formType:"gender"}};return()=>e(o,null,[e(n,{name:"config",metas:t},null)])}});export{l as default};
