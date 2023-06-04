@@ -7,3 +7,9 @@
 
 # vue后台管理
 动态菜单路由 ： https://blog.csdn.net/fzy_1939/article/details/126015648
+多级动态表头 https://blog.csdn.net/nnslyx/article/details/126306691
+
+动态表格组件 https://handsontable.com/docs/javascript-data-grid/vue3-installation/
+https://www.npmjs.com/package/xhy-vxe-table
+
+https://github.com/x-extends/vxe-table  https://vxetable.cn/#/table/base/size

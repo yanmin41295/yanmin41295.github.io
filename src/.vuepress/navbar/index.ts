@@ -1,4 +1,4 @@
-import {navbar} from "vuepress-theme-hope";
+import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
     "/",
@@ -6,7 +6,7 @@ export const zhNavbar = navbar([
         text: "拉不拉东算法笔记",
         prefix: "/labuladong/",
         children: [
-            {text: "第零章：核心框架汇总", icon: "edit", link: "0"},
+            { text: "第零章：核心框架汇总", icon: "edit", link: "0" },
         ],
     },
     /*{
@@ -50,7 +50,7 @@ export const zhNavbar = navbar([
             "strawberry",
         ],
     },*/
-    {text: "演示", icon: "discover", link: "/demo/"},
+    { text: "演示", icon: "discover", link: "/demo/" },
     {
         text: "V2 文档",
         icon: "note",

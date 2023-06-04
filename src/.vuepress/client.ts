@@ -1,14 +1,13 @@
-import {defineClientConfig} from '@vuepress/client'
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
-import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+import { defineClientConfig } from '@vuepress/client'
+import Antd from 'ant-design-vue';
+// import 'ant-design-vue/dist/antd.css'; // or 'ant-design-vue/dist/antd.less'
+import 'ant-design-vue/lib/style/index';
+import store from "./store";
+import DatePicker from 'ant-design-vue/lib/date-picker';
 
-console.log("start client enhance")
 export default defineClientConfig({
-    enhance: ({app, router, siteData}) => {
-        app.use(ElementPlus)
-        for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
-            app.component(key, component)
-        }
-    }
+    enhance: ({ app, router, siteData }) => {
+        app.use(Antd);
+        app.use(store)
+    },
 })
