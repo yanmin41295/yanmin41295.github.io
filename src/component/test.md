@@ -1,4 +1,4 @@
 # 组件测试
 
 ## tsx组件
-<UserView/>
+<UserView name="yanmin"/>

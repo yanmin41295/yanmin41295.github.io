@@ -3,11 +3,13 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
     "/",
     {
-        text: "拉不拉东算法笔记",
-        prefix: "/labuladong/",
-        children: [
-            { text: "第零章：核心框架汇总", icon: "edit", link: "0" },
-        ],
+        text: "组件",
+        prefix: "/component/",
+        icon: "edit",
+        link: "/component",
+      /*  children: [
+            { text: "", icon: "edit", link: "/component" },
+        ],*/
     },
     /*{
         text: "博文",

@@ -6,7 +6,7 @@ import viteBundler from "@vuepress/bundler-vite";
 import vueJsx from '@vitejs/plugin-vue-jsx';
 import vue from "@vuepress/bundler-vite";
 
-import { JSX } from "vue/jsx-runtime"; // or 'ant-design-vue/dist/antd.less'
+// import 'ant-design-vue/dist/antd.less'
 export default defineUserConfig({
     base: "/",
     lang: "zh-CN",

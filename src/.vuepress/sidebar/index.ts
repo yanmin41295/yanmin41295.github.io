@@ -3,31 +3,12 @@ import {sidebar as themeSideBar} from "vuepress-theme-hope";
 export const zhSidebar = themeSideBar({
     "/": [
         "",
-        "intro",
         {
-            text: "拉不拉东算法笔记",
+            text: "component",
             icon: "note",
-            prefix: "labuladong/",
+            prefix: "component/",
             children: "structure",
         },
-        {
-            text: "github",
-            icon: "note",
-            prefix: "github/",
-            children: "structure",
-        },
-        {
-            text: "idea",
-            icon: "note",
-            prefix: "idea/",
-            children: "structure",
-        },
-        /* {
-             text: "文章",
-             icon: "note",
-             prefix: "posts/",
-             children: "structure",
-         },*/
         {
             text: "如何使用",
             icon: "creative",

@@ -2,7 +2,11 @@ import { defineComponent } from 'vue';
 import ConfigTable from "./ConfigTable";
 
 export default defineComponent({
-    setup() {
+    props: {
+        name: { type: String },
+    },
+    setup(props:{ name: string;}) {
+        console.log("view name", props.name);
         const config = {
             name: {
                 title: "姓名",

@@ -31,12 +31,10 @@ projects:
   - icon: friend
     name: github主页
     desc: 
-    link: https://github.com/yanmin41295
 
   - icon: /logo.svg
     name: github 博客
     desc: 
-    link: https://yanmin41295.github.io/
 
 footer: min's notebook
 ---
